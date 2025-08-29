@@ -37,19 +37,7 @@ nav
 {
     padding-top: 20px;
 }
-button
-{
-    background-color: green;
-    color: white;
-    margin-left: 40px;
-    border-radius: 20px;
-    padding: 10px 23px 10px 23px;
-    border: 1px solid rgb(35, 161, 77);
-}
-button:hover
-{
-    background-color: rgb(121, 231, 121);
-}
+
 .my-banner-content
 {
     color: white;
@@ -77,6 +65,23 @@ button:hover
     font-size: 40px;
     font-weight: bold;
 }
+
+
+.btn {
+  color: white;
+  background-color: green;
+  font-size: 13px;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+  margin-left: 30px;
+}
+
+button:hover {
+  background-color: rgb(106, 215, 106);
+}
+
 .aboutus li
 {
     margin-top: 7px;
@@ -139,3 +144,25 @@ button:hover
     box-shadow: 0px 5px green;
     transform: translate(0px,-10px);
 }
+
+.cta
+{
+    padding: 40px 100px 40px 100px;
+     background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-image:linear-gradient(rgb(0, 0, 0,0.5),rgb(0, 0, 0,0.5)), url("https://cdn.pixabay.com/photo/2020/11/13/14/46/building-5738714_1280.jpg");
+}
+.cta-div
+{
+    
+    color: white;
+}
+.cta-div div
+{
+    width: 600px;
+    display: inline-block;
+}
+
+
+
